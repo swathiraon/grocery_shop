@@ -13,9 +13,9 @@ class Grocery(Base):
 	product = Column(String(200),nullable = False)
 	price = Column(Integer)
 	quantity = Column(Integer)
+	status=Column(String(20))
 
-
-
+	
 
 engine = create_engine("sqlite:///grocery.db")
 Base.metadata.create_all(engine)
