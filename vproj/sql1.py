@@ -12,7 +12,7 @@ class Grocery(Base):
 	id = Column(Integer,primary_key = True)
 	product = Column(String(200),nullable = False)
 	price = Column(Integer)
-	quantity = Column(String)
+	quantity = Column(Integer)
 
 
 

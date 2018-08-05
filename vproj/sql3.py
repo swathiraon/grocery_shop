@@ -7,13 +7,8 @@ while True:
 	elif ch=="2":
 		del_products()
 	else:
-		list = display()
-		tab = []
-		for i in list:
-			tab.append(i.product)
-			tab.append(i.price)
-			tab.append(i.quantity)
-		print(tab)
+		display()
+		
 
 
 			
