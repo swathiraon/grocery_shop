@@ -18,8 +18,7 @@ while True:
 	elif ch=="2":
 		del_products()
 
-	else:
-		display()
+	
 
 	elif ch=="3":
 		display()
