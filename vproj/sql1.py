@@ -14,6 +14,9 @@ class Grocery(Base):
 	price = Column(Integer)
 	quantity = Column(Integer)
 
+	status=Column(String)
+
+
 
 
 
